@@ -11,9 +11,10 @@ if ! test -d "$HOME/.vim/bundle/nerdtree/.git"; then
   git clone https://github.com/scrooloose/nerdtree.git $HOME/.vim/bundle/nerdtree
 else
   echo "Updating nerdtree"
-  git pull -q $HOME/.vim/bundle/nerdtree
+  git pull $HOME/.vim/bundle/nerdtree
 fi
 
+# Copy vimrc
 echo "Copying vimrc"
-# Copy over vimrc
+cp $HOME/.vimrc $HOME/vimrc.bak
 cp files/vimrc $HOME/.vimrc
