@@ -36,3 +36,6 @@ colorscheme delek
 
 " Limit line length for git commit messages
 au FileType gitcommit set tw=72
+
+" Set Jenkinsfile syntax
+au BufReadPost Jenkinsfile set syntax=groovy
