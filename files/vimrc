@@ -9,6 +9,9 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+" Stops indentation on paste into terminal
+set paste
+
  " Indent automatically depending on filetype
 filetype indent on
 set autoindent
