@@ -42,3 +42,7 @@ au FileType gitcommit set tw=72
 
 " Set Jenkinsfile syntax
 au BufReadPost Jenkinsfile set syntax=groovy
+
+" Set sensible yml syntax
+autocmd FileType yaml setlocal ts=4 sts=4 sw=4 expandtab
+autocmd FileType yml setlocal ts=4 sts=4 sw=4 expandtab
