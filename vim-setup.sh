@@ -20,6 +20,10 @@ git clone https://github.com/vim-airline/vim-airline ~/.vim/bundle/vim-airline
 echo "Installing ctrlp"
 git clone https://github.com/kien/ctrlp.vim.git ~/.vim/bundle/ctrlp/ctrlp.vim
 
+# Install/update vim-go
+echo "Installing vim-go"
+git clone https://github.com/fatih/vim-go.git ~/.vim/bundle/vim-go
+
 # Backup vimrc
 echo "Backing up .vimrc"
 if [ -e $HOME/.vimrc ]; then
